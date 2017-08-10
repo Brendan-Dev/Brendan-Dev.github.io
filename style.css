@@ -1,0 +1,133 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding: 0px;
+}
+
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 10000;
+}
+
+.nav li{
+    display: inline-block;
+    margin: 16px 50px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #92b98b;
+    font-family: 'Titillium Web';
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #92b98b;
+}
+
+#cover{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    top: -55px;
+    background-image: url(images/cover_img.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.cover-content{
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    top: 280px;
+}
+
+h1{
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    line-height: 60px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+h2{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: -70px;
+    text-align: center;
+}
+
+h3{
+    color: #529f44; 
+    font-family: 'Arimo', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+p{
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#portfolio{
+    background: #EEEFF1;
+    box-sizing: border-box;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 0px;
+
+}
+
+.example-work{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin: 0px 2% 80px 2%;
+}
+
+.example-work img{
+    width: 400px;
+    height: 200px;
+}
+
+#about{
+    background: #EEEFF1;
+    width: 40%;
+    margin: 2.75% 5%;
+    padding: 20px 0px;
+    float: left;
+    text-align: center;
+}
+
+#contact{
+    background: #EEEFF1;
+    width: 40%;
+    margin: 2.75% 5%;
+    padding: 20px 0px;
+    float: right;
+    text-align: center;
+}
+
+@media screen and (max-width:959px){
+    
+}
+
+
