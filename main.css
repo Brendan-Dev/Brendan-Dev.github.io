@@ -1,0 +1,85 @@
+/* Reset Style */
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(images/background.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.hero-image{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.hero-content{
+    max-width: 725px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-family: 'Yantramanav', sans-serif;
+    color: #F9F3F4;
+    font-weight: 100;
+    text-shadow: 0px 0px 300px #000; 
+    font-size: 750%;
+}
+
+.hero-content .btn{
+    border-radius: 9px;
+    font-family: 'Yantramanav', sans-serif;
+    color: #393B50;
+    font-size: 150%;
+    font-weight: 300;
+    padding: 10px 20px;
+    border: solid #393B50 3px; 
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #FFF;
+    border: solid #FFF 3px;
+}
+
+p{
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px){
+    .hero-content h1{
+        font-size: 450%;
+    }
+    
+    .hero-content .btn{
+        font-size: 150%;
+        padding: 10px 15px;
+    }
+    
+    p{
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
