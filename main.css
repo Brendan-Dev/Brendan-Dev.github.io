@@ -1,0 +1,128 @@
+/* Reset Style */
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Nav Bar */
+li, a{
+    display: inline;
+    padding: 1%;
+    font-size: 130%;
+    font-family: 'Yantramanav', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#nav{
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    top: 1%;
+    left: -2%;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar{ 
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+/* Hero Image etc */
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(images/background.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.hero-image{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.hero-content{
+    max-width: 725px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-family: 'Yantramanav', sans-serif;
+    color: #F9F3F4;
+    font-weight: 100;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 750%;
+}
+
+.hero-content .caption{
+    text-align: center;
+    border-radius: 9px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 150%;
+    font-weight: 300;
+    padding: 10px 20px;
+    border: solid 3px;
+    text-decoration: none;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+/* Content */
+p{
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+h4{
+    
+    font-size: 200%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px){
+    .hero-content h1{
+        font-size: 450%;
+    }
+
+    .hero-content .caption{
+        font-size: 150%;
+        padding: 10px 15px;
+        margin: 0 5%;
+    }
+    
+    h4{
+        font-size: 150%;
+        line-height: 160%;
+        margin: 3%;
+    }
+    
+    p{
+        font-size: 100%;
+        line-height: 140%;
+        text-align: justify;
+    }
+    
+    li, a{
+        display: inline;
+        padding: 2%;
+        font-size: 160%;
+        font-family: 'Yantramanav', sans-serif;
+        color: #FFF;
+        text-decoration: none;
+    }
+}
